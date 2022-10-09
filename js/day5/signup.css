@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-image: url("./control6.jpg");
+}
+.a {
+    display: flex;
+    height: 40px;
+    border: 0px;
+    margin: 0px;
+    padding: 4px 12px;
+}
+.text-28 {
+    font-size: 28px;
+}
+.text-40 {
+    font-size: 40px;
+}
+.menu {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 780px;
+    color: rgb(197, 188, 188);
+    font-family: sans-serif;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(197, 188, 188);
+}
+.button {
+    margin: 0px 20px;
+    font-family: sans-serif;
+}
+
+.logo {
+    margin-left: 320px;
+    margin-top: 16px;
+    color: rgb(197, 188, 188);
+    font-family: sans-serif;
+}
+.b {
+    text-align: center;
+    margin-top: 204px;
+}
+#signin {
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+}
+#signup {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(84 88 92);
+    margin: 8px 0px;
+}
+.form {
+    font-size: 24px;
+    width: 25%;
+    margin: 8px 0px;
+    padding: 12px 24px;
+    border-radius: 0.5rem;
+    background-color: #a6a6a687;
+    border-color: #a6a6a687;
+}
+.botan {
+    background-color: #a6a6a687;
+    border: hidden;
+    padding: 12px 24px;
+    font-size: 24px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.botan:hover {
+    background-color: #1f1a1a87;
+    border: hidden;
+    padding: 12px 24px;
+    font-size: 24px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition-duration: 1000ms;
+}
+.fork {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(24, 228, 194, 0.329);
+    color: aliceblue;
+    width: 100%;
+    font-size: 36px;
+    font-family: sans-serif;
+}
