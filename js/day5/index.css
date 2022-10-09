@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0;
+}
+.a {
+    display: flex;
+    height: 40px;
+    border: 0px;
+    margin: 0px;
+    padding: 4px 12px;
+}
+.text-28 {
+    font-size: 28px;
+}
+.menu {
+    display: flex;
+    float: right;
+}
+.button {
+    margin: 0px 20px;
+}
