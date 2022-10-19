@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0;
-    background-image: url("sub/control6.jpg");
+    background-image: url("./control6.jpg");
 }
 .a {
     display: flex;
@@ -38,6 +38,25 @@ a:link, a:visited {
     font-family: sans-serif;
 }
 .b {
+    margin-top: 4%;
+    text-align: center;
+    padding: 36px 0px;
+    background-color: rgba(29, 188, 194, 0.534);
+}
+.big {
+    padding: 4px 0px;
+    font-size: 44px;
+    color: rgb(68, 55, 55);
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.sub {
+    padding: 4px 0px;
+    font-size: 24px;
+    color: rgb(68, 55, 55);
+    font-family: sans-serif;
+}
+.c {
     text-align: center;
     margin-top: 204px;
 }
