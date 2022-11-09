@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex1.css">
     <title>Square Roots</title>
 </head>
 <body>
-    <div>Exercise 1:</div>
+    <div class="container">
+        <div id="nametag">Exercise 1:</div>
+        <div class="sub-container">
+            <label for="start" class="label1">Start: </label><br>
+            <input type="text" id="start">
+        </div>
+        <div class="sub-container">
+            <label for="end" class="label1">End: </label><br>
+            <input type="text" id="end">
+        </div>
+        <div id="output"></div>
+        
+    </div>
+    <button onclick="findSquareNums()" id="button">Find square numbers from start to end</button>
+    <div class="output">
+        <ol id="list">
+
+        </ol>
+    </div>
+    <button id="disco" onclick="setBg()">It's disco time!</button>
+    <button id="stop" onclick="setWhite()">Stop</button>
     <script src="ex1.js"></script>
+    <script src="disco.js"></script>
 </body>
 </html>

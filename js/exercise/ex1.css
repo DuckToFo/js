@@ -1,0 +1,42 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+#nametag {
+    font-size: 24pt;
+    font-family: sans-serif;
+}
+.sub-container {
+    margin: 0% 3%;
+    display: flex;
+    justify-content: center;
+}
+.label1 {
+    font-size: 20pt;
+    font-family: sans-serif;
+    margin: 0% 3%;
+}
+#start {
+    width: 30%;
+    font-size: 16pt;
+}
+#end {
+    width: 30%;
+    font-size: 16pt;
+}
+#button {
+    width: 10%;
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 22%;
+    margin-top: 0.8%;
+}
+#list {
+    margin-left: 36%;
+    font-size: 24pt;
+}
