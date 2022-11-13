@@ -10,7 +10,7 @@ body {
     position: absolute;
     height: 70%;
     width: 76%;
-    margin: 8% 12%;
+    margin: 7% 12%;
 }
 .nav-bar {
     width: 88%;
@@ -19,12 +19,27 @@ body {
 }
 .menu {
     display: flex;
+    justify-content: space-between;
     height: 100%;
 }
 .site {
     font-size: 32px;
     font-family: 'Merriweather';
     font-weight: bold;
+    margin-bottom: 12px;
+}
+.selection {
+    margin-right: 0%;
+    width: 60%;
+}
+.button {
+    width: fit-content;
+    height: 70%;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 1px 2%;
+    background-color: white;
 }
 .search {
     width: 35%;
@@ -34,16 +49,30 @@ body {
     font-family: 'Poppins';
     box-sizing: border-box;
     padding: 16px;
+    width: 70%;
+    border: 1px solid #BFC8E6;
 }
 .category {
 
 }
 .row {
     display: flex;
+    justify-content: space-around;
+    margin: 4% 0%;
+    padding: 2% 2%;
 }
-
+.name {
+    font-size: 18px;
+}
+.address {
+    font-size: 14px;
+}
+.small-box {
+    font-size: 12px;
+}
 .user {
     background-color: #FBFCFF;
+    display: flex;
 }
 .blue {
     background-color: #849FFF;
