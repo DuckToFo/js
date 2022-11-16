@@ -1,41 +1,35 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #fffaf4;
 }
-.top {
+.nav-bar {
+    
+}
+.menu {
+    margin: 16px 16px;
+}
+.selection {
     display: flex;
-    background-color: aqua;
-    width: 100%;
 }
-.wrapper {
+.contact {
     display: flex;
-    padding: 24px 16%;
-    background-color: aquamarine;
+    justify-content: space-between;
+    margin: 80px 80px 0px 80px;
 }
-#logo {
-    max-width: 100%;
-    width: 24%;
+.thumbnail {
+    background-color: brown;
+    padding
 }
-.searchbox {
-    width:  270px;
-    height: 30px;
-    background-color: bisque;
+.introduction {
+    margin-left: 60%;
+    border: solid white;
+    padding: 20px 16px;
+    width: 30%;
 }
-#textbox {
-    padding: 4px 32px 4px 12px;
-    height: 30px;
-    font-size: 16px;
-    width: 270px;
+.sub-introduction {
+    color: white;
 }
-#submit {
-    position: absolute;
-    margin: 0px;
-    background-color: black;
-}
-#search-icon {
-    height: 20px;
-    width: 20px;
-}
-#top-menu {
-    display: initial;
+.size-24 {
+    font-size: 24px;
 }
