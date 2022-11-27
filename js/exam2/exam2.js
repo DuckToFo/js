@@ -39,6 +39,11 @@ function merge2String() {
             merge += b[i];
             console.log(merge)
         }
+    } else {
+        for (let i = 0; i < a.length; i++) {
+            merge += (a[i] + b[i]);
+            console.log(merge)
+        }
     }
     let node = document.createElement("li")
     let text = document.createTextNode("Merged string result: " + merge);
