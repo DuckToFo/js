@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-image: url('background.jpg');
 }
 .container {
     width: fit-content;
@@ -26,7 +27,7 @@ body {
     padding: 24px 12px;
     text-align: center;
 }
-.input {
+#input {
     padding: 12px 8px;
     font-size: 24px;
 }
@@ -41,9 +42,18 @@ body {
     font-size: 24px;
     padding: 12px 32px;
 }
-.link {
+#list {
     font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-bottom: 12px;
 }
+.link, .link:visited {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+
 
 @media only screen and (max-width: 1200px) {
 }
